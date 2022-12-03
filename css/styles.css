@@ -1,4 +1,38 @@
 body {
-  background-color: teal;
-  color: brown;
+  background-color: rgb(166, 204, 204);
+  font-size: 24px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+.btn-form {
+  font-size: 20px;
+  background-color: rgb(99, 215, 37);
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #ffe4c4;
+  padding: 10px;
+}
+
+.btn-close {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: #f67c7c;
+  box-shadow: 3px 3px 6px #d9c2a7, -3px -3px 6px #ffffe1;
+  text-align: center;
 }
